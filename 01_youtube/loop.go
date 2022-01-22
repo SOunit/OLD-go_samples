@@ -25,4 +25,16 @@ func main() {
 		fmt.Print("index", index)
 		fmt.Println("value", value)
 	}
+
+	// obj loop
+	fmt.Println("--------------- obj")
+	obj := make(map[string]string)
+	obj["j"] = "Jack"
+	obj["r"] = "Rebecca"
+	fmt.Println(obj)
+
+	for key, value := range obj {
+		fmt.Println("key", key)
+		fmt.Println("value", value)
+	}
 }
