@@ -1,4 +1,4 @@
-module 02_echo_example
+module main
 
 go 1.17
 
